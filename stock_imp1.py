@@ -9,7 +9,7 @@ pd.set_option("display.unicode.east_asian_width", True)
 pd.set_option("display.unicode.ambiguous_as_wide", True)
 
 # ====== Discord Webhook ======
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1440667052640829522/i9XOM0CJiQT2VYXvk84i0Cx-wD4MKKfdD-i6tUgNsYCSPE4DA4p5okzYlxU4XCcNlI-E"
+DISCORD_WEBHOOK_URL = ""# 在此填入你的 Discord Webhook URL
 
 
 def send_to_discord(symbol, currency,
