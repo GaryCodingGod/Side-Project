@@ -9,7 +9,7 @@ pd.set_option("display.unicode.east_asian_width", True)
 pd.set_option("display.unicode.ambiguous_as_wide", True)
 
 #連接到 Discord 的 Webhook URL
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1440251632293253151/LnVfDqy26lAVITE3Gg5NvV1bC5AvRZt4c_8B208j4H7FWrIpnVJFu1u7ECURhme7u-m_"
+DISCORD_WEBHOOK_URL = ""
 
 def send_to_discord(stock_no, top5_outlier, top5_profit):
     # 整理 Outlier 資料
